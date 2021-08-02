@@ -14,3 +14,4 @@ jq
 wget
 libncursesw5
 libtool
+autoconf
