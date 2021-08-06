@@ -18,3 +18,6 @@ bash <(wget -qO - https://raw.githubusercontent.com/FakieNZ/Cardano-Tools/master
 
 tput setaf 2; echo INSTALLING LIBSODIUM ; tput sgr0
 bash <(wget -qO - https://raw.githubusercontent.com/FakieNZ/Cardano-Tools/master/VM-OS/installLibsodium.sh)
+
+tput setaf 2; echo REBOOTING SERVER; tput sgr0
+sudo shutdown -r 1 
