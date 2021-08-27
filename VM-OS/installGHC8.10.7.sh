@@ -5,4 +5,4 @@ rm ghc-8.10.7-x86_64-deb9-linux.tar.xz
 cd ghc-8.10.7
 ./configure
 sudo make install
-cd ..
+cd ~
