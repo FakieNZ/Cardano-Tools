@@ -14,7 +14,7 @@ tput setaf 2; echo INSTALLING CABAL ; tput sgr0
 bash <(wget -qO - https://raw.githubusercontent.com/FakieNZ/Cardano-Tools/master/VM-OS/installCabal3.4.0.0.sh)
 
 tput setaf 2; echo INSTALLING GHC ; tput sgr0
-bash <(wget -qO - https://raw.githubusercontent.com/FakieNZ/Cardano-Tools/master/VM-OS/installGHC.sh)
+bash <(wget -qO - https://raw.githubusercontent.com/FakieNZ/Cardano-Tools/master/VM-OS/installGHC8.10.7.sh)
 
 tput setaf 2; echo INSTALLING LIBSODIUM ; tput sgr0
 bash <(wget -qO - https://raw.githubusercontent.com/FakieNZ/Cardano-Tools/master/VM-OS/installLibsodium.sh)
