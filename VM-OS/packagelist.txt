@@ -15,3 +15,10 @@ wget
 libncursesw5
 libtool
 autoconf
+nano
+llvm-12
+numactl
+libnuma-dev
+autoconf
+automake
+libtool
